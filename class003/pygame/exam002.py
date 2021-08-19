@@ -15,7 +15,7 @@ def initGame():
     pygame.display.set_caption('Test')
 
     # 이미지 로딩
-    player = pygame.image.load('img/player.png')  #64x64 크기의 이미지
+    player = pygame.image.load('player.png')  #64x64 크기의 이미지
     clock = pygame.time.Clock()
 
 def runGame():
